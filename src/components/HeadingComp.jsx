@@ -2,8 +2,8 @@ import React from "react";
 
 const HeadingComp = (props) => {
   return (
-    <div className="container pt-16">
-      <section className="pb-10 px-48 flex gap-96 justify-between">
+    <div className="container pt-16 px-48">
+      <section className="pb-10 flex gap-96 justify-between">
         <div className="flex gap-6">
           <span className=" font-bold">{props.number} </span>
           <p className="font-bold w-32">{props.text} </p>
@@ -14,7 +14,7 @@ const HeadingComp = (props) => {
           </h2>
         </div>
       </section>
-      <hr className=" mx-36" />
+      <hr />
     </div>
   );
 };

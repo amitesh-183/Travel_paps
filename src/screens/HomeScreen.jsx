@@ -61,13 +61,64 @@ const HomeScreen = () => {
           <BenefitsComp choose={data.choose} />
         </section>
 
-        {/*  */}
+        {/* App section ----------------------------------------------------- */}
         <section className="bg-black text-white">
           <HeadingComp
             number="04."
             text="Download"
             heading="Download and Get Started!"
           />
+        </section>
+        <section className="flex justify-around px-96 mx-auto py-28">
+          <div className="text-white font-black text-2xl">
+            <h3 className="pb-4">Apple Store</h3>
+            <button className="flex text-black py-6 gap-4 px-7 bg-white rounded-full">
+              <img src="images/apple.png" className="h-7" alt="" />
+              <span className="my-auto text-xl">Download The App</span>
+            </button>
+          </div>
+          <div className="text-white font-black text-2xl">
+            <h3 className="pb-4">Play Store</h3>
+            <button className="flex text-black py-6 gap-4 px-7 bg-white rounded-full">
+              <img src="images/playstore.png" className="h-7" alt="" />
+              <span className="my-auto text-xl">Download The App</span>
+            </button>
+          </div>
+        </section>
+
+        {/* About section ------------------------------------------------------ */}
+        <section className="bg-white flex flex-col justify-between mx-auto px-56 py-8 gap-14">
+          <div className=" text-left">
+            <h6 className=" font-bold pb-4">About VSITTO:</h6>
+            <p className=" font-semibold">
+              VSITTO is an app developed and maintained by a technology company
+              called YALA Inc. YALA Inc. was founded in 2023 by a team of
+              experienced travel enthusiasts and technology experts. The
+              company's mission is to revolutionize the travel industry by
+              providing innovative and user-friendly technology solutions that
+              make travel planning and management easy and enjoyable for
+              everyone.
+            </p>
+          </div>
+          <div className="text-left">
+            <h6 className=" font-bold pb-4">Values:</h6>
+            <ol className=" font-semibold" type="number">
+              <li>
+                1. Innovation: We embrace change and are always looking for new
+                and creative ways to improve our products and services.
+              </li>
+              <li>
+                2.User-Centric Design: We put our users first and strive to
+                create technology solutions that are intuitive, user-friendly,
+                and accessible to everyone.{" "}
+              </li>
+              <li>
+                3. Quality Service: We are dedicated to providing exceptional
+                customer service and support, and always go the extra mile to
+                ensure our users have a positive experience.
+              </li>
+            </ol>
+          </div>
         </section>
       </main>
     </div>
