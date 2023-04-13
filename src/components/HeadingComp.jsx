@@ -2,7 +2,7 @@ import React from "react";
 
 const HeadingComp = (props) => {
   return (
-    <div className="container py-16 ">
+    <div className="container pt-16 ">
       <section className="pb-8 px-60 flex gap-96 justify-between">
         <div className="flex gap-6">
           <span className=" font-bold">{props.number} </span>
@@ -14,7 +14,7 @@ const HeadingComp = (props) => {
           </h2>
         </div>
       </section>
-      <hr className="mx-52 opacity-75" />
+      <hr className="mx-52" />
     </div>
   );
 };

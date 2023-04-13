@@ -1,0 +1,42 @@
+{
+  "logo": "images/logo.png",
+  "destinations": [
+    {
+      "title": "Red Fort in old delhi",
+      "location": "Delhi, India",
+      "image": "images/redFort.png"
+    },
+    {
+      "title": "Taj mahal in Agra",
+      "location": "Agra, India",
+      "image": "images/tajMahal.png"
+    },
+    {
+      "title": "Golden Temple in Amritsar",
+      "location": "Amritsar, India",
+      "image": "images/goldenTemple.png"
+    }
+  ],
+  "choose": [
+    {
+      "title": "Lots of Choices",
+      "img": "images/earth.png"
+    },
+    {
+      "title": "Customized Trip Planning",
+      "img": "images/trip.png"
+    },
+    {
+      "title": "Easy Bookings",
+      "img": "images/booking.png"
+    },
+    {
+      "title": "One-Stop-Shop For All Travel Needs",
+      "img": "images/all.png"
+    },
+    {
+      "title": "Audio Description",
+      "img": "images/audio.png"
+    }
+  ]
+}
