@@ -18,7 +18,7 @@ const HomeScreen = () => {
             heading="Find Your Perfect Destination With Vsitto"
           />
           <section>
-            <div className="container flex flex-row gap-28 px-28">
+            <div className="container flex flex-row gap-28 px-28"></div>
             
         </section>
         <section className="bg-black text-white">
