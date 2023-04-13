@@ -1,0 +1,20 @@
+.img {
+  background-image: url("/public/images/v42_73.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.368);
+  background-blend-mode: multiply;
+  height: 120vh;
+}
+
+.link:active {
+  top: 0;
+  background: #eedb50;
+  content: "";
+
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: yellow;
+}
