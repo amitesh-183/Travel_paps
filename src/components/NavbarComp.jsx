@@ -4,7 +4,7 @@ import "../styles/nav.css";
 const NavbarComp = () => {
   return (
     <div className="container">
-      <nav className=" flex justify-around pt-6 pb-3">
+      <nav className=" flex justify-between gap-96 px-28 pt-6 pb-3">
         <img src="/images/logo.png" className=" h-6" alt="Visitto" />
         <ul className=" flex gap-4  text-white">
           <li className="link">

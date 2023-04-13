@@ -22,7 +22,7 @@ const HomeScreen = () => {
           />
         </section>
         <section className="bg-white pb-8">
-          <button className="flex justify-end float-right mx-6 mb-6 py-3 px-4 rounded-full bg-yellow-300">
+          <button className="flex justify-end float-right mx-28 my-6 py-3 px-4 rounded-full bg-yellow-300">
             <img src="images/side.png" className="h-4" alt="" />
           </button>
 
@@ -40,7 +40,7 @@ const HomeScreen = () => {
           />
         </section>
         <section className="text-white pb-8">
-          <button className="flex justify-end float-right mx-6 mb-6 py-3 px-4 rounded-full bg-yellow-300">
+          <button className="flex justify-end float-right mx-28 my-6 py-3 px-4 rounded-full bg-yellow-300">
             <img src="images/side.png" className="h-4" alt="" />
           </button>
 
