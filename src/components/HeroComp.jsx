@@ -7,11 +7,11 @@ const HeroComp = () => {
           {" "}
           The ultimate travel companion for your next adventure!
         </h1>
-        <span className=" text-center lg:px-56 text-xl text-gray-500">
+        <p className=" text-center lg:px-96 text-xl text-gray-500">
           vsitto offers a unique and personalized experience, allowing you to
           create your own custom trip plan and book all of your travel needs in
           one place.
-        </span>
+        </p>
         <section></section>
       </main>
     </div>
