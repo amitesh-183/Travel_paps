@@ -2,7 +2,7 @@ import React from "react";
 
 const DestinationComp = ({ destinations }) => {
   return (
-    <div className="container justify-center lg:justify-between flex gap-16 flex-wrap lg:gap-20 lg:px-28 lg:py-8">
+    <div className="container justify-center lg:justify-evenly flex gap-16 lg:flex-nowrap flex-wrap lg:gap-20 lg:px-28 lg:py-8">
       {destinations.map((item) => (
         <div className="lg:flex lg:flex-col lg:justify-start">
           <img
@@ -10,13 +10,13 @@ const DestinationComp = ({ destinations }) => {
             src={item.image}
             alt="First slide"
           />
-          <h4 className="text-[12px] w-40 lg:text-left lg:pl-3 font-bold">
+          <h4 className="text-[12px] lg:text-xl lg:text-center lg:w-full lg:pb-2 w-40 lg:pl-3 font-bold">
             {item.title}
           </h4>
-          <span className="flex lg:justify-start lg:gap-2 text-sm">
+          <span className="flex lg:justify-center lg:gap-2 text-sm">
             <img
               src="images/location.png"
-              className="h-4 lg:h-4 pl-8 pr-2 lg:pl-4"
+              className="h-4 lg:h-4 pl-8 lg:pl-4"
               alt=""
             />
             {item.location}
