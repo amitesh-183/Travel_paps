@@ -5,6 +5,7 @@ import HeadingComp from "../components/HeadingComp";
 import DestinationComp from "../components/DestinationComp";
 import data from "../data/destination_data.json";
 import BenefitsComp from "../components/BenefitsComp";
+import PreFooterComp from "../components/PreFooterComp";
 
 const HomeScreen = () => {
   return (
@@ -120,6 +121,8 @@ const HomeScreen = () => {
             </ol>
           </div>
         </section>
+
+        <PreFooterComp />
       </main>
     </div>
   );
