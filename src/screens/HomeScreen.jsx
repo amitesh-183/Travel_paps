@@ -41,7 +41,7 @@ const HomeScreen = () => {
           />
         </section>
         <section className="text-white pb-8">
-          <button className="flex justify-end float-right mx-28 my-6 py-3 px-4 rounded-full bg-yellow-300">
+          <button className="flex justify-end float-right mx-10 lg:mx-28 my-6 py-3 px-4 rounded-full bg-yellow-300">
             <img src="images/side.png" className="h-4" alt="" />
           </button>
 
@@ -70,25 +70,25 @@ const HomeScreen = () => {
             heading="Download and Get Started!"
           />
         </section>
-        <section className="flex justify-around px-96 mx-auto py-28">
-          <div className="text-white font-black text-2xl">
+        <section className="flex lg:justify-around px-2  gap-4 lg:px-96 mx-auto py-20 lg:py-28">
+          <div className="text-white font-black lg:text-2xl">
             <h3 className="pb-4">Apple Store</h3>
-            <button className="flex text-black py-6 gap-4 px-7 bg-white rounded-full">
+            <button className="flex text-black py-3 lg:py-6 lg:gap-4 px-4 lg:px-7 bg-white rounded-full">
               <img src="images/apple.png" className="h-7" alt="" />
-              <span className="my-auto text-xl">Download The App</span>
+              <span className="my-auto w-48 lg:text-xl">Download The App</span>
             </button>
           </div>
-          <div className="text-white font-black text-2xl">
+          <div className="text-white font-black lg:text-2xl">
             <h3 className="pb-4">Play Store</h3>
-            <button className="flex text-black py-6 gap-4 px-7 bg-white rounded-full">
+            <button className="flex text-black py-3 lg:py-6 lg:gap-4 px-4 lg:px-7 bg-white rounded-full">
               <img src="images/playstore.png" className="h-7" alt="" />
-              <span className="my-auto text-xl">Download The App</span>
+              <span className="my-auto w-48 lg:text-xl">Download The App</span>
             </button>
           </div>
         </section>
 
         {/* About section ------------------------------------------------------ */}
-        <section className="bg-white flex flex-col justify-between mx-auto px-56 py-8 gap-14">
+        <section className="bg-white flex flex-col justify-between mx-auto px-5 lg:px-56 py-8 gap-14">
           <div className=" text-left">
             <h6 className=" font-bold pb-4">About VSITTO:</h6>
             <p className=" font-semibold">

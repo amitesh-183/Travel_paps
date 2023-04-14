@@ -8,17 +8,13 @@ import FooterComp from "./components/FooterComp";
 function App() {
   return (
     <div className="App">
-      <main className=" ">
-        <Router>
-          <Routes>
-            <Route path="/" element={<HomeScreen />} />
-            <Route path="/about" element={<AboutScreen />} />
-            <Route path="/faq" element={<FaqScreen />} />
-            {/* <Route path="/blog" element={<BlogScreen />} /> */}
-            {/* <Route path="/careers" element={<CareerScreen />} /> */}
-          </Routes>
-        </Router>
-      </main>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomeScreen />} />
+          <Route path="/about" element={<AboutScreen />} />
+          <Route path="/faq" element={<FaqScreen />} />
+        </Routes>
+      </Router>
       <FooterComp />
     </div>
   );
