@@ -11,9 +11,9 @@ const DestinationComp = ({ destinations }) => {
             src={item.image}
             alt="First slide"
           />
-          <h4 className=" text-left pl-3">{item.title}</h4>
-          <span className="flex justify-start gap-2">
-            <img src="images/location.png" className="h-5 pt-1 pl-4" alt="" />
+          <h4 className=" text-left pl-3 font-bold">{item.title}</h4>
+          <span className="flex justify-start gap-2 text-sm">
+            <img src="images/location.png" className="h-4 pt-0 pl-4" alt="" />
             {item.location}
           </span>
         </div>
