@@ -3,8 +3,8 @@ import React from "react";
 const DestinationComp = ({ destinations }) => {
   return (
     <div className="container justify-center lg:justify-evenly flex gap-16 lg:flex-nowrap flex-wrap lg:gap-20 lg:px-28 lg:py-8">
-      {destinations.map((item) => (
-        <div className="lg:flex lg:flex-col lg:justify-start">
+      {destinations.map((item, i) => (
+        <div className="lg:flex lg:flex-col lg:justify-start" key={i}>
           <img
             className="h-32 lg:h-56 mx-auto rounded-2xl duration-300 hover:shadow-sm hover:shadow-gray-600"
             src={item.image}

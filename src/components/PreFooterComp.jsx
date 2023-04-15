@@ -19,31 +19,23 @@ const PreFooterComp = () => {
           <div className="px-16">
             <h3 className=" pb-3">Resources</h3>
             <ul>
-              <Link to="/faq">
-                <li className="text-[#565656] duration-300 hover:text-yellow-300">
-                  FAQ
-                </li>
-              </Link>
-              <Link to="/blog">
-                <li className="text-[#565656] duration-300 hover:text-yellow-300">
-                  Blog
-                </li>
-              </Link>
+              <li className="text-[#565656] duration-300 hover:text-yellow-300">
+                <Link to="/faq">FAQ</Link>
+              </li>
+              <li className="text-[#565656] duration-300 hover:text-yellow-300">
+                <Link to="/blog">Blog</Link>
+              </li>
             </ul>
           </div>
           <div className="px-10">
             <h3 className=" pb-3">VISITTO</h3>
             <ul>
-              <Link to="/about">
-                <li className="text-[#565656] duration-300 hover:text-yellow-300">
-                  About
-                </li>
-              </Link>
-              <Link to="/careers">
-                <li className="text-[#565656] duration-300 hover:text-yellow-300">
-                  Careers
-                </li>
-              </Link>
+              <li className="text-[#565656] duration-300 hover:text-yellow-300">
+                <Link to="/about">About</Link>
+              </li>
+              <li className="text-[#565656] duration-300 hover:text-yellow-300">
+                <Link to="/careers">Careers</Link>
+              </li>
             </ul>
           </div>
           <div className="text-[#565656] lg:pl-56">

@@ -9,7 +9,7 @@
   height: 120vh;
 } */
 
-a:active {
+/* a:active {
   background-color: #eedb50;
   content: "";
   width: 0%;
@@ -26,4 +26,4 @@ a:active:hover {
 
 a:hover {
   color: yellow;
-}
+} */
