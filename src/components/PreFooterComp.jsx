@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const PreFooterComp = () => {
   return (
@@ -20,7 +20,7 @@ const PreFooterComp = () => {
             <h3 className=" pb-3">Resources</h3>
             <ul>
               <li className="text-[#565656] duration-300 hover:text-yellow-300">
-                <NavLink to="/faq">FAQ</NavLink>
+                <Link to="/faq">FAQ</Link>
               </li>
               <li className="text-[#565656] duration-300 hover:text-yellow-300">
                 <Link to="/blog">Blog</Link>
