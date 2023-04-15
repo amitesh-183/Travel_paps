@@ -1,0 +1,29 @@
+/* .img {
+  background-image: url("/public/images/v42_73.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-top: -20rem;
+  background-color: rgba(0, 0, 0, 0.368);
+  background-blend-mode: multiply;
+  height: 120vh;
+} */
+
+/* a:active {
+  background-color: #eedb50;
+  content: "";
+  width: 0%;
+  position: absolute;
+  height: 3px;
+  left: 0;
+  transition: 0.3s;
+  bottom: -10px;
+}
+
+a:active:hover {
+  width: 100%;
+}
+
+a:hover {
+  color: yellow;
+} */

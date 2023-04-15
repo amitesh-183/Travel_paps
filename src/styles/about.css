@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500&display=swap");
+
+/* * {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0%;
+  margin-top: 0.4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  outline: none;
+  list-style: none;
+} */
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.cont1 {
+  display: flex;
+  justify-content: space-between;
+}
+.cont1 button {
+  color: black;
+  background-color: #ffff;
+  padding: 0.5rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  border-radius: 17px;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  border-style: hidden;
+  font-weight: 400;
+  font-family: "Public Sans", sans-serif;
+}
+.cont2 {
+  color: #fff;
+  text-align: left;
+  margin-top: 5rem;
+}
+.cont2 span {
+  font-size: 1.9rem;
+  font-weight: 500;
+  text-align: left;
+  font-family: "Public Sans", sans-serif;
+}
+.cont2 {
+  font-size: 1.1rem;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+}
+.first {
+  margin-top: 1.5rem;
+}
+.second {
+  margin-top: 1.5rem;
+}
+.third {
+  margin-top: 1.5rem;
+}
+.fourth {
+  margin-top: 2rem;
+}
+
+.fifth {
+  margin-top: 2rem;
+}
+.sixth {
+  margin-top: 2rem;
+}
+.seventh {
+  margin-top: 2rem;
+  padding-bottom: 3rem;
+}
+.founder h1 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: "Public Sans", sans-serif;
+}
+.founder {
+  display: flex;
+  justify-content: center;
+  @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500&display=swap");
+}
+/* *{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0%;
+    margin-top: .4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    outline: none;
+	list-style: none;
+} */
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.cont1 {
+  display: flex;
+  justify-content: space-between;
+}
+.cont1 button {
+  color: black;
+  background-color: #ffff;
+  padding: 0.5rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  border-radius: 17px;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  border-style: hidden;
+  font-weight: 400;
+  font-family: "Public Sans", sans-serif;
+}
+.cont2 {
+  color: #fff;
+  text-align: left;
+  margin-top: 5rem;
+}
+.cont2 span {
+  font-size: 1.9rem;
+  font-weight: 500;
+  text-align: left;
+  font-family: "Public Sans", sans-serif;
+}
+.cont2 {
+  font-size: 1.1rem;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+}
+.first {
+  margin-top: 1.5rem;
+}
+.second {
+  margin-top: 1.5rem;
+}
+.third {
+  margin-top: 1.5rem;
+}
+.fourth {
+  margin-top: 2rem;
+}
+
+.fifth {
+  margin-top: 2rem;
+}
+.sixth {
+  margin-top: 2rem;
+}
+.seventh {
+  margin-top: 2rem;
+  padding-bottom: 3rem;
+}
+.founder h1 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: "Public Sans", sans-serif;
+}
+.founder {
+  display: flex;
+  justify-content: center;
+}
